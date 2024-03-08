@@ -165,7 +165,7 @@ exports.getBarChartData = async (req, res) => {
       { min: 601, max: 700 },
       { min: 701, max: 800 },
       { min: 801, max: 900 },
-      { min: 901, max: above },
+      { min: 901, max: Infinity },
     ];
 
     const priceRangeCounts = {};
